@@ -4,10 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TwUI</title>
-    <link href="./dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="./output.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&family=Savate:ital,wght@0,200..900;1,200..900&family=Stalemate&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1 class="text-3xl font-bold text-blue-600">Tailwind CSS v4 CLI</h1>
+   <div class="container mx-auto bg-amber-100">
+      <nav class="flex justify-between items-center">
+          <div class="h-18 w-18">
+           
+          </div>
+          <ul class="flex space-x-8">
+            <li><a class="text-black font-medium hover:text-amber-600 " href="#">Overview</a></li>
+            <li><a class="text-black font-medium hover:text-amber-600" href="#">Services</a></li>
+            <li><a class="text-black font-medium hover:text-amber-600" href="#">Contact</a></li>
+            <li><a class="text-black font-medium hover:text-amber-600" href="#">About</a></li>
+          </ul>
+          <button class="w-12 h-12 rounded-full bg-amber-300 flex items-center justify-center hover:bg-amber-400">☰</button>
+      </nav>
+   </div>
+
+   <div class="container mx-auto mt-15 flex">
+      <div class=" w-1/2 px-10 py-25">
+        <p class="font-stalemate text-5xl">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+      </div>
+
+      <div class="w-1/2 px-10">
+         <img class="mx-auto w-2/3" src="./assets/remote_work.png" alt="img">
+      </div>
+   </div>
+
+    <div class="container mx-auto flex">
+      <div class="w-1/2 px-10">
+         <img class="mx-auto w-2/3" src="./assets/programming.png" alt="img">
+      </div>
+
+      <div class=" w-2/3 px-10 py-10">
+        <p class="font-stalemate text-5xl">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+      </div>
+   </div>
+
+   <div>
+      <div>
+         
+      </div>
+   </div>
+    
 </body>
 </html>
